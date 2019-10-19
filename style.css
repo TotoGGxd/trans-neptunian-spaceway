@@ -3,36 +3,19 @@ body{
   padding: 0%;
   background-color: #569683;
 }
+
 .home-portal{
   position: relative;
   left: 730px;
   bottom: 110px;
   width: 500px;
   height: 830px;
+}
 
-}
-.letras{
-  position: relative;
-  bottom: 620px;
-  right: 400px;
-  
-}
-.api-img{
-  position: relative;
-  bottom: 815px;
-  left: 230px;
-  
-}
 .img-isotipo{
   size: 3%;
 }
-.gif{
-  position: absolute;
-  bottom: 30px;
-  left: 100px;
-  width: 600px;
-  height: 250px;
-}
+
 .home-menu{
   font-size: 72px;
   width: 100%;
@@ -45,20 +28,16 @@ body{
   height: 70px;
   padding: 0px 0px 0px 0px;
 }
-.img-char{
-  position: relative;
-  
-}
-.img-character{
-  height: 300px;
-  width: 300px;
-}
-nav ul{
+
+.buscador{
   list-style-type: none;
   padding: 0px;
   margin: 0px;
   float: right;
+  margin-right: 3px;
+  margin-top: 3px;
 }
+
 nav ul li{
   text-align: right;
   float: right;
@@ -77,14 +56,12 @@ nav ul li a{
   
 }
 
-
 nav p{
   text-align: right;
   float: left;
   font-size: 22px;
   line-height: 45px;
   margin: 0px;
-
 }
 
 .div-content{
@@ -92,26 +69,28 @@ nav p{
   width: 100%;
   height: 550px;
 }
-/*
+
 .item-content{
-  position: relative;
-  float: left;
-  
+  padding: 0px 0px;
+
 }
+
 .item-content2{
-  position: relative;
-  float: right;
-}*/
+  padding: 0px 0px;
 
-.column{
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px;
 }
 
-.div-content:after{
-  content: "";
-  display: table;
-  clear: both;
+#nocall{
+  padding: 0px 0px;
+}
+
+.piedepagina{
+  background-color: darkgreen;
+  width: 100%;
+  height: 100px;
+}
+#myUL{
+  padding: 0px 0px;
+  margin-right: 50%;
+
 }
