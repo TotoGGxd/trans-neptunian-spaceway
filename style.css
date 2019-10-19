@@ -1,13 +1,31 @@
 body{
-    background-color: rgb(26, 26, 156);
+    background-color: black;
     margin: 0%;
     padding: 0%;
     overflow-x: hidden;
 }
+.huamea{
+    position: absolute;
+    left: 600px;
+    width: 700px;
+    height: 470px;
+    top: 20px;
+}
 .pluto{
     position: absolute;
-    left: 500px;
-    width: 700px;
-    height: 500px;
+    width: 350px;
+    height: 170px;
+    top: 350px;
 }
-
+.eris{
+    position: absolute;
+    width: 350px;
+    height: 170px;
+    top: 190px;
+}
+.makemake{
+    position: absolute;
+    width: 350px;
+    height: 170px;
+    top: 20px;
+}
