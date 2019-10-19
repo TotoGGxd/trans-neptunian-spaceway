@@ -1,13 +1,90 @@
-#header-main{
-    background-color: red;
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #447385;
 }
-#header-menu{
-    text-align: center;
+.home-portal{
+    position: relative;
+    left: 730px;
+    bottom: 110px;
+    width: 500px;
+    height: 830px;
+
 }
-a{
-    vertical-align: middle;
-    text-align: center;
+.letras{
+    position: relative;
+    bottom: 620px;
+    right: 400px;
+    
+}
+.api-img{
+    position: relative;
+    bottom: 815px;
+    left: 230px;
+    
+}
+.gif{
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+    width: 600px;
+    height: 250px;
+}
+.home-menu{
+    font-size: 60px;
+    width: 100%;
+    height: 60px;
+    background-color: #24325FFF; 
+    float: left;
+}
+
+.img-home{
+    height: 40px;
+    padding: 10px 10px 5px 10px;
+}
+.img-char{
+    position: relative;
+    
+}
+.img-character{
+    height: 300px;
+    width: 300px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+nav ul li{
+    float: left;
+    list-style-type: none;
+    position: relative;
+}
+nav ul li :hover{
+    background-color: rgb(24, 33, 63);
+
+}
+nav ul li a{
+    font-size: 24px;
+    padding: 16px 14px;
+    display: block;
+    color: 	#35C9DD;
+    -webkit-text-stroke: .3px #8bcf21;
     text-decoration: none;
-    size: 20px;
-    color: white;
+}
+nav ul li:hover ul{
+    
+    display: block;
+    position: absolute;
+    left: 123px; /* change this value to one that suits you */
+    top: 56px; 
+}
+
+nav p{
+    float: left;
+    font-size: 22px;
+    line-height: 45px;
+    margin: 0px;
+
 }
