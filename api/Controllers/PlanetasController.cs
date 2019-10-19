@@ -24,7 +24,7 @@ namespace api.Controller
                 Temperatura="-241°C",
                 Rotacion="3 horas y 55 minutos",
                 Distancia="7,668,373,091 Km",
-                Tiempo="6.7 horas a la velocidad de la luz",
+                Tiempo="6.7 horas a la velocidad de la luz"
 
 
             },
@@ -36,7 +36,7 @@ namespace api.Controller
                 Temperatura="405 grados bajo cero (242,77 grados Celsius bajo cero)",
                 Rotacion="25 horas, 14,316,000,000,  13 horas vl",
                 Distancia=" 95,7 unidades astronómicas de la Tierra (14.316 millones de kilómetros)",
-                Tiempo=" 557 años",
+                Tiempo=" 557 años"
             },
 
 
@@ -48,7 +48,7 @@ namespace api.Controller
                 Temperatura=" cerca de −243,2 °C (30 K)",
                 Rotacion="22.5 horas de rotación, 6,847,000,000 kilometers distancia a la tierra, 6.3 horas vl",
                 Distancia=" Makemake estaba a 52,4 ua del Sol(7838926222.69 Kilómetros)cerca de su distancia de afelio, y lejos de la eclíptica.",
-                Tiempo="4,40 Km/s",
+                Tiempo="4,40 Km/s"
             },
 
             new Planetas
@@ -59,7 +59,7 @@ namespace api.Controller
                 Temperatura="-229°C",
                 Rotacion="6.4 días",
                 Distancia="5.769.000.000 km",
-                Tiempo="5.3 Horas Velocidad de la luz",
+                Tiempo="5.3 Horas Velocidad de la luz"
             },
 
 

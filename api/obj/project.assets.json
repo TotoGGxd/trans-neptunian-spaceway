@@ -8,30 +8,28 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\eliza\\.nuget\\packages\\": {},
+    "C:\\Users\\Gerardo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eliza\\Documents\\trans-neptunian-spaceway\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\Gerardo\\Documents\\practicas-web\\trans-neptunian-spaceway\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\eliza\\Documents\\trans-neptunian-spaceway\\api\\api.csproj",
-      "packagesPath": "C:\\Users\\eliza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eliza\\Documents\\trans-neptunian-spaceway\\api\\obj\\",
+      "projectPath": "C:\\Users\\Gerardo\\Documents\\practicas-web\\trans-neptunian-spaceway\\api\\api.csproj",
+      "packagesPath": "C:\\Users\\Gerardo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gerardo\\Documents\\practicas-web\\trans-neptunian-spaceway\\api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\eliza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Gerardo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
