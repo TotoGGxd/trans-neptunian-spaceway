@@ -4,20 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleindex.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+    <title>Principal</title>
+    
+    <nav class="home-menu">
+            <p><a href="index.html"><img class="img-home" src="resources/images/isotipo.png"></a></p>
+            <ul>
+                <li><a><input  type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.."></a></li>
+            </ul>
+        </nav>
+    <br>
 </head>
 <body>
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
-    <link rel="stylesheet" href="style.css">
+    <div>
+        <iframe src="https://solarsystem.nasa.gov/gltf_embed/2400" width="100%" height="450px" frameborder="0"></iframe>
+    </div>
+    <br>
+    <div class="div-content">
+        <nav>
+            <a>
+                <div class="item-content">
+                    <img src="https://definicion.mx/wp-content/uploads/2013/03/planeta.jpg" width="10%" height="10%">
+                    
+                </div>
+                <div class="item-content2">
+                    <img src="https://m.eldiario.es/fotos/Captura-pantalla-video-youtuber-AuronPlay_EDIIMA20190619_0741_19.jpg" width="10%" height="10%">
+                </div>
+            </a>
+        </nav>
+    </div>
     
-    <ul id="myUL" >
-        
-        <li><a href="#">Pluto</a></li>
-        <li><a href="#">Haumea</a></li>
-        <li><a href="#">Makemake</a></li>
-        <li><a href="#">Eris</a></li>
-        
-    </ul>
-<script src="app.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <!--<script src="characters.js"></script>-->
 </body>
 </html>
