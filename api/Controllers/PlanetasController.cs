@@ -12,9 +12,6 @@ namespace api.Controller
   [Route("api/[controller]")]
     [ApiController]
     
-
-
-
     public class PlanetasController: IPlaneta
     {
        List<Planetas> planetasList => new List<Planetas>
