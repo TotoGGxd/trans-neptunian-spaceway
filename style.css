@@ -39,7 +39,14 @@ body{
     position: relative;
     background-color: ivory;
     /*margin: 50px 10px 20px 50px;*/
-    height: 600px;
+    height: 50px;
     width: 10000px;
-    top: 430px;
+    top: 400px;
+    z-index: -1;
+}
+.info-bar{
+    position: relative;
+    
+    top: 515px;
+    color: rgb(24, 9, 9);
 }
