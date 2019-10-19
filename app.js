@@ -19,32 +19,17 @@ function myFunction() {
   }
 }
 
-/*if(document.getElementById("myInput").onclick){
-    document.getElementById("myUL").style.display = "block";
-}else{
+
+document.addEventListener("click", (evt) => {
+    const flyoutElement = document.getElementById("myInput");
+    let targetElement = evt.target; 
+    do {
+        if (targetElement == flyoutElement) {
+            document.getElementById("myUL").style.display = "block";
+            return;
+        }
+        targetElement = targetElement.parentNode;
+    } while (targetElement);
+
     document.getElementById("myUL").style.display = "none";
-}*/
-/*
-document.getElementById("myInput").onclick = function (){
-    document.getElementById("myUL").style.display = "block";
-}
-
-document.onclick = function (){
-    document.getElementById("myUL").style.display = "none";
-}*/
-
-/*document.onclick = function (){
-    var windowClick=document.getElementById("myInput").click;
-    if(windowClick){
-        document.getElementById("myUL").style.display = "block";
-    }
-    else if(document.onclick){
-        document.getElementById("myUL").style.display = "none";
-    }
-    
-}
-*/
-
-if(document.getElementById()=="myInput"){
-
-}
+});
