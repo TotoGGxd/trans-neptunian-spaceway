@@ -1,148 +1,38 @@
-/*#fondo{
-    height: 100%;
-    width: 100%;
-    opacity: .8;
-    top:-50px ;
-    position: relative;
-    z-index:0;
-}*/
+#myInput {
+    background-image: url('/css/searchicon.png'); 
+    background-repeat: no-repeat; 
+    width: 100px; 
+    height: 20px;
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
 
-.header-main{
-    margin: 0;
-    width: 100%;
-    height: 60px;
-    margin-bottom: 10px;
-    position: relative;
-    background-color: royalblue;
-
-}
-
-
-
-
-
-.vertical-menu {
-    width: 200px;
-    top:3px;
-    bottom: 50%;
-    left: 56px;
-    position: relative;
-    float: left;
-    z-index:1;
-    
-
-  }
-  
-  .vertical-menu a {
-    background-color: red;
-    color: white;
-    display: block;
-    padding: 5px;
-    text-decoration: none;
-    z-index:1;
-  }
-  
-  .vertical-menu a:hover {
-    background-color:white;
-    z-index:1;
-
-  }
-  
-  .vertical-menu a.active {
     background-color: black;
-    color: white;
-    z-index:1;
+    color: whitesmoke;
+    right: 0%;
   }
-
-  .vertical-menu li a:hover {
-    background: #000;
-    border-left: 10px solid #333;
-    color: #fff;
-    z-index:1;
-}
-
-
   
-.planetoide1{
-    margin:auto;  
-    text-align: left;
-    font-size: 20px;
-    width: 70%;
-    color:black;
-    font-family: sans-serif;
-    position: relative;
-    right:50px;
-    
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    display: none;
+
+
   }
-
-
   
-.planetoide2{
-    margin:auto;  
-    text-align: left;
-    font-size: 20px;
-    width: 70%;
-    color:black;
-    font-family: sans-serif;
-    position: relative;
-    right:50px;
-    
+  #myUL li a {
+    border: 1px solid #ddd; 
+    margin-top: -1px; 
+    background-color: #f6f6f6; 
+    padding: 12px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    color: black; 
+    display: block;
   }
-
-
-
-
   
-.planetoide3{
-    margin:auto;  
-    text-align: left;
-    font-size: 20px;
-    width: 70%;
-    color:black;
-    font-family: sans-serif;
-    position: relative;
-    right:50px;
-    
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
   }
-
-  
-.planetoide4{
-    margin:auto;  
-    text-align: left;
-    font-size: 20px;
-    width: 70%;
-    color:black;
-    font-family: sans-serif;
-    position: relative;
-    right:50px;
-    
-  }
-
-  
-.planetoide5{
-    margin:auto;  
-    text-align: left;
-    font-size: 20px;
-    width: 70%;
-    color:black;
-    font-family: sans-serif;
-    position: relative;
-    right:50px;
-    
-  }
-
-  
-.planetoide6{
-    margin:auto;  
-    text-align: left;
-    font-size: 20px;
-    width: 70%;
-    color:black;
-    font-family: sans-serif;
-    position: relative;
-    right:50px;
-  }
-
-
-
-

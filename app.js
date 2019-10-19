@@ -3,7 +3,7 @@ function myFunction() {
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById('myInput');
     filter = input.value.toUpperCase();
-    ul = document.getElementsByClassName("vertical-menu");
+    ul = document.getElementById("myUL");
     li = ul.getElementsByTagName('li');
    
   
@@ -26,12 +26,11 @@ document.addEventListener("click", (evt) => {
     let targetElement = evt.target; 
     do {
         if (targetElement == flyoutElement) {
-            document.getElementsByClassName("vertical-menu").style.display = "block";
+            document.getElementById("myUL").style.display = "block";
             return;
         }
         targetElement = targetElement.parentNode;
     } while (targetElement);
 
-    document.getElementsByClassName("vertical-menu").style.display = "none";
+    document.getElementById("myUL").style.display = "none";
 });
-  
