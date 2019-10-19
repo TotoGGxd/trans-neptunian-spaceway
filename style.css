@@ -1,0 +1,13 @@
+#header-main{
+    background-color: red;
+}
+#header-menu{
+    text-align: center;
+}
+a{
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    size: 20px;
+    color: white;
+}
