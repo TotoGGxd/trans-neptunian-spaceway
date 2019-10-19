@@ -1,7 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: #447385;
+    background-color: #569683;
 }
 .home-portal{
     position: relative;
@@ -34,7 +34,7 @@ body{
     font-size: 60px;
     width: 100%;
     height: 60px;
-    background-color: #24325FFF; 
+    background-color: #569683; 
     float: left;
 }
 
@@ -54,27 +54,30 @@ nav ul{
     list-style-type: none;
     padding: 0px;
     margin: 0px;
-    float: left;
+    float: right;
 }
 nav ul li{
-    float: left;
+    text-align: right;
+    float: right;
     list-style-type: none;
     position: relative;
 }
 nav ul li :hover{
-    background-color: rgb(24, 33, 63);
+    background-color: #516b68;
 
 }
 nav ul li a{
+    text-align: right;
     font-size: 24px;
     padding: 16px 14px;
     display: block;
-    color: 	#35C9DD;
-    -webkit-text-stroke: .3px #8bcf21;
+    color: 	#ffffff;
     text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+
 }
 nav ul li:hover ul{
-    
+
     display: block;
     position: absolute;
     left: 123px; /* change this value to one that suits you */
@@ -82,6 +85,7 @@ nav ul li:hover ul{
 }
 
 nav p{
+    text-align: right;
     float: left;
     font-size: 22px;
     line-height: 45px;
