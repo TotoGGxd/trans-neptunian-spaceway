@@ -1,12 +1,14 @@
 body{
    
     margin: 0%;
+    /*background-color: rgb(1, 0, 12);*/
     background-image: url('images/fondo.jpg');
     background-attachment:fixed;
     background-size: 100%;
     position:absolute;
 	height: 100%;
     width: 100%;
+    
     
 }
 
@@ -16,4 +18,59 @@ body{
     margin: 0;
     height:760px;
     width:100%;
+    
 }
+.pluto{
+    position: absolute;
+    z-index: 100;
+    margin-top: 10%;
+}
+.huamea{
+    position: absolute;
+    z-index: 100;
+    margin-top: 22%;
+}
+.eris{
+    position: absolute;
+    z-index: 100;
+    margin-top: 34%;
+}
+
+.square {
+    position:absolute;
+    height: 500px;
+    width: 100%;
+    background-color: rgba(172, 172, 172, 0.308);
+    margin-top:15%;
+    z-index: -100;
+  
+  }
+  .square2 {
+    position:absolute;
+    height: 200px;
+    width: 49%;
+    background-color: rgba(172, 172, 172, 0.308);
+    margin-top:55%;
+    z-index: -100;
+  
+  }
+  .square3 {
+    position:absolute;
+    height: 200px;
+    width: 49%;
+    background-color: rgba(172, 172, 172, 0.308);
+    margin-top:55%;
+    z-index: -100;
+  margin-left: 54%;
+  }
+
+  .p{
+    position: absolute;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 30px;
+      margin-top:-700px;
+      margin-left: 45%;
+      color: blanchedalmond;
+    z-index: 100;
+    
+  }
