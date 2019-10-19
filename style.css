@@ -4,6 +4,7 @@ body{
     /*background-color: rgb(1, 0, 12);*/
     background-image: url('images/fondo.jpg');
     background-attachment:fixed;
+    background-color: black;
     background-size: 100%;
     position:absolute;
 	  height: 100%;
