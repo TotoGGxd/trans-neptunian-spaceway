@@ -1,26 +1,26 @@
-#menu {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    width: 200px;
-    font-family: Arial, sans-serif;
-    font-size: 11pt;
-    color: cornsilk;
-    float: left;
-    
-}
 #fondo{
     height: 100%;
     width: 100%;
     opacity: .8;
+    top:-50px ;
+    position: absolute;
+    z-index:0;
 }
+
+
+
+
+
+
 
 .vertical-menu {
     width: 10px;
     top:3px;
     bottom: 50%;
     left: 56px;
-    position: relative;
+    position: absolute;
+    float: left;
+    z-index:1;
     
 
   }
@@ -29,17 +29,112 @@
     
     display: block;
     padding: 12px;
-  
+    position: absolute;
+    
+    z-index:1;
   }
   
   .vertical-menu a:hover {
     background-color:white;
+    z-index:1;
+
   }
   
   .vertical-menu a.active {
     background-color: black;
     color: white;
+    z-index:1;
+  }
+
+  .vertical-menu li a:hover {
+    background: #000;
+    border-left: 10px solid #333;
+    color: #fff;
+    z-index:1;
+}
+
+
+  
+.planetoide1{
+    margin:auto;  
+    text-align: left;
+    font-size: 20px;
+    width: 70%;
+    color:black;
+    font-family: sans-serif;
+    position: relative;
+    right:50px;
+    
+  }
+
+
+  
+.planetoide2{
+    margin:auto;  
+    text-align: left;
+    font-size: 20px;
+    width: 70%;
+    color:black;
+    font-family: sans-serif;
+    position: relative;
+    right:50px;
+    
+  }
+
+
+
+
+  
+.planetoide3{
+    margin:auto;  
+    text-align: left;
+    font-size: 20px;
+    width: 70%;
+    color:black;
+    font-family: sans-serif;
+    position: relative;
+    right:50px;
+    
   }
 
   
+.planetoide4{
+    margin:auto;  
+    text-align: left;
+    font-size: 20px;
+    width: 70%;
+    color:black;
+    font-family: sans-serif;
+    position: relative;
+    right:50px;
+    
+  }
+
+  
+.planetoide5{
+    margin:auto;  
+    text-align: left;
+    font-size: 20px;
+    width: 70%;
+    color:black;
+    font-family: sans-serif;
+    position: relative;
+    right:50px;
+    
+  }
+
+  
+.planetoide6{
+    margin:auto;  
+    text-align: left;
+    font-size: 20px;
+    width: 70%;
+    color:black;
+    font-family: sans-serif;
+    position: relative;
+    right:50px;
+  }
+
+
+
 
