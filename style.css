@@ -1,94 +1,45 @@
-body{
-    margin: 0%;
-    padding: 0%;
-    background-color: #569683;
-}
-.home-portal{
-    position: relative;
-    left: 730px;
-    bottom: 110px;
-    width: 500px;
-    height: 830px;
-
-}
-.letras{
-    position: relative;
-    bottom: 620px;
-    right: 400px;
-    
-}
-.api-img{
-    position: relative;
-    bottom: 815px;
-    left: 230px;
-    
-}
-.gif{
-    position: absolute;
-    bottom: 30px;
-    left: 100px;
-    width: 600px;
-    height: 250px;
-}
-.home-menu{
-    font-size: 60px;
-    width: 100%;
-    height: 60px;
-    background-color: #569683; 
-    float: left;
-}
-
-.img-home{
-    height: 40px;
-    padding: 10px 10px 5px 10px;
-}
-.img-char{
-    position: relative;
-    
-}
-.img-character{
-    height: 300px;
-    width: 300px;
-}
-nav ul{
+#menu {
     list-style-type: none;
+    margin: 0px;
     padding: 0px;
-    margin: 0px;
-    float: right;
-}
-nav ul li{
-    text-align: right;
-    float: right;
-    list-style-type: none;
-    position: relative;
-}
-nav ul li :hover{
-    background-color: #516b68;
-
-}
-nav ul li a{
-    text-align: right;
-    font-size: 24px;
-    padding: 16px 14px;
-    display: block;
-    color: 	#ffffff;
-    text-decoration: none;
-    font-family: 'Maven Pro', sans-serif;
-
-}
-nav ul li:hover ul{
-
-    display: block;
-    position: absolute;
-    left: 123px; /* change this value to one that suits you */
-    top: 56px; 
-}
-
-nav p{
-    text-align: right;
+    width: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    color: cornsilk;
     float: left;
-    font-size: 22px;
-    line-height: 45px;
-    margin: 0px;
-
+    
 }
+#fondo{
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+}
+
+.vertical-menu {
+    width: 10px;
+    top:3px;
+    bottom: 50%;
+    left: 56px;
+    position: relative;
+    
+
+  }
+  
+  .vertical-menu a {
+    
+    display: block;
+    padding: 12px;
+  
+  }
+  
+  .vertical-menu a:hover {
+    background-color:white;
+  }
+  
+  .vertical-menu a.active {
+    background-color: black;
+    color: white;
+  }
+
+  
+
