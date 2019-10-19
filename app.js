@@ -18,18 +18,19 @@ function myFunction() {
       }
     }
   }
-  
-  
-  document.addEventListener("click", (evt) => {
-      const flyoutElement = document.getElementById("myInput");
-      let targetElement = evt.target; 
-      do {
-          if (targetElement == flyoutElement) {
-              document.getElementById("myUL").style.display = "block";
-              return;
-          }
-          targetElement = targetElement.parentNode;
-      } while (targetElement);
-  
-      document.getElementById("myUL").style.display = "none";
-  });
+
+
+
+document.addEventListener("click", (evt) => {
+    const flyoutElement = document.getElementById("myInput");
+    let targetElement = evt.target; 
+    do {
+        if (targetElement == flyoutElement) {
+            document.getElementById("myUL").style.display = "block";
+            return;
+        }
+        targetElement = targetElement.parentNode;
+    } while (targetElement);
+
+    document.getElementById("myUL").style.display = "none";
+});
