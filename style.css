@@ -1,15 +1,20 @@
-#fondo{
+/*#fondo{
     height: 100%;
     width: 100%;
     opacity: .8;
     top:-50px ;
-    position: absolute;
+    position: relative;
     z-index:0;
-}
+}*/
 
 .header-main{
+    margin: 0;
     width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    position: relative;
     background-color: royalblue;
+
 }
 
 
@@ -21,7 +26,7 @@
     top:3px;
     bottom: 50%;
     left: 56px;
-    position: absolute;
+    position: relative;
     float: left;
     z-index:1;
     
