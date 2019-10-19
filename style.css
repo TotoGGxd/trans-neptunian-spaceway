@@ -3,7 +3,6 @@ body{
     margin: 0%;
     overflow-x: hidden;
 }
-
 .img{
     position: absolute;
     display: block;
@@ -35,4 +34,12 @@ body{
     top: 350px;
     font-size: 18px;
     color: rgb(194, 178, 178);
+}
+.info-box{
+    position: relative;
+    background-color: ivory;
+    /*margin: 50px 10px 20px 50px;*/
+    height: 600px;
+    width: 10000px;
+    top: 430px;
 }
