@@ -2,6 +2,7 @@ body{
   margin: 0%;
   padding: 0%;
   background-color: #569683;
+
 }
 
 .home-portal{
@@ -38,14 +39,14 @@ body{
   margin-top: 3px;
 }
 
-nav ul li{
+.home-menu .buscador .buscador{
   text-align: right;
   float: right;
   list-style-type: none;
   position: relative;
 }
 
-nav ul li a{
+.home-menu .buscador .buscador .buscador{
   text-align: right;
   font-size: 24px;
   padding: 10px 14px;
@@ -56,7 +57,7 @@ nav ul li a{
   
 }
 
-nav p{
+.home-menu p{
   text-align: right;
   float: left;
   font-size: 22px;
@@ -72,25 +73,42 @@ nav p{
 
 .item-content{
   padding: 0px 0px;
-
+  font-family: 'Maven Pro', sans-serif;
+  text-decoration: none;
 }
 
 .item-content2{
   padding: 0px 0px;
-
+  font-family: 'Maven Pro', sans-serif;
+  text-decoration: none;
 }
 
 #nocall{
   padding: 0px 0px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Maven Pro', sans-serif;
+
 }
 
 .piedepagina{
-  background-color: darkgreen;
+  background-color: deeppink;
   width: 100%;
   height: 100px;
 }
 #myUL{
-  padding: 0px 0px;
-  margin-right: 50%;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+footer{
+  text-align: center;
+  top: 50%;
+}
+.nocall{
+  vertical-align: middle;
+  text-align: center;
+  
 
 }
