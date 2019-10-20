@@ -63,7 +63,7 @@ body{
   position: absolute;
   background-color: #D98B4C;
   top:129px;
-
+  z-index: -1;
 }
 
 
