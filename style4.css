@@ -119,5 +119,31 @@ nav p{
     margin-left: 70%;
     color:#569683;
     z-index: 100;
-    
+  }
+  .p1{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 42px;
+    margin-top:-550px;
+    margin-left: 6%;
+    color:#569683;
+    z-index: 100;
+  }
+  .p2{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 42px;
+    margin-top:-350px;
+    margin-left: 12%;
+    color:#569683;
+    z-index: 100;
+  }
+  .p3{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 42px;
+    margin-top:-170px;
+    margin-left: 10%;
+    color:#569683;
+    z-index: 100;
   }
