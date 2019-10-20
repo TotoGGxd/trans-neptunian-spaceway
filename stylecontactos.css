@@ -5,7 +5,7 @@
     /*bottom: -1442px;*/
     right: 103px;
     margin-top: 135%;
-
+    z-index: 0;
 
 }
 .instalogo{
@@ -15,7 +15,7 @@
     margin-top: 135%;
     float: left;
     right: 50px;
-    
+    z-index: 0;
 
 }
 .githublogo{
@@ -25,21 +25,23 @@
     margin-top: 135%;
     float: left;
     right: 150px;
-   
+    z-index: 0;
 
 }
 
-.logofin{
-    position: relative;
-    height: 80px;
-    width: 170px;
-    bottom: -1396px;
+
+
+
+/**/
+
+
+
+.derechos
+{
+    position: absolute;
+    margin-top: 136%;
     float: left;
-    right: 1300px;
-    padding: 0px 0px 0px 0px;
-  
-    
+    right: 1160px;
+    z-index: 2;
 }
-
-
   
