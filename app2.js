@@ -46,11 +46,11 @@ const url = 'https://localhost:5001/api/planetas';
 let getInfoPlanet = async () =>{
   const response = await fetch(url)
   const data = await response.json();
-  planetName.innerText = data[0].nombre;
-  planetDescription.innerText = data[0].description;
-  planetDescription.innerHTML += `${data[0].tamaño} ${data[0].temperatura}`;
-  square1.innerHTML = `${data[0].tiempo}`;
-  square2.innerHTML = `${data[0].distancia}`;
+  planetName.innerText = data[1].nombre;
+  planetDescription.innerText = data[1].description;
+  planetDescription.innerHTML += `${data[1].tamaño} ${data[1].temperatura}`;
+  square1.innerHTML = `${data[1].tiempo}`;
+  square2.innerHTML = `${data[1].distancia}`;
   console.log(data);
 }
 getInfoPlanet();
