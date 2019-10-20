@@ -41,6 +41,8 @@ const planetDescription = document.getElementById('description');
 const planetName = document.getElementById('name');
 const square1 = document.getElementById('info');
 const square2 = document.getElementById('info2');
+const square3 = document.getElementById('info3');
+const square4 = document.getElementById('info4');
 const url = 'https://localhost:5001/api/planetas';
 
 let getInfoPlanet = async () =>{
@@ -48,9 +50,10 @@ let getInfoPlanet = async () =>{
   const data = await response.json();
   planetName.innerText = data[2].nombre;
   planetDescription.innerText = data[2].description;
-  square1.innerHTML = `${data[2].tiempo}`;
-  square1.innerHTML += `${data[2].tamaño}<br> ${data[2].temperatura}`;
-  square2.innerHTML = `${data[2].distancia}<br>`;
+  square1.innerHTML = `${data[2].tiempo}<br>`;
+  square2.innerHTML = `${data[2].distancia}`;
+  square3.innerText = data[2].tamaño;
+  square4.innerText = data[2].temperatura;
   console.log(data);
 }
 getInfoPlanet();
