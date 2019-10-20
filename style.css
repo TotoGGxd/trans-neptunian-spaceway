@@ -270,33 +270,85 @@ input[name="r"]{
     color:#D98B4C;
     z-index: 100;
   }
-
-.square {
+  .square {
     position:absolute;
-    height: 500px;
-    width: 100%;
+    height: 400px;
+    width: screen;
     background-color: rgba(172, 172, 172, 0.308);
     margin-top:15%;
     z-index: -100;
-    font-size: 24px;
+   
+    
+      text-align: justify;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 30px;
+      color: #569683;
+      shape-margin: 10px;
+      padding: 60px 40px 40px 40px;
+    
+    }
+    .square2 {
+      position:absolute;
+      height: 100px;
+      width: 40%;
+      background-color: rgba(172, 172, 172, 0.308);
+      margin-top:55%;
+      z-index: -100;
+      
+      text-align: justify;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 30px;
+      color: #569683;
+      shape-margin: 10px;
+      padding: 60px 40px 40px 40px;
+    
+    }
+    .square3 {
+      position:absolute;
+      height: 100px;
+      width: 40%;
+      background-color: rgba(172, 172, 172, 0.308);
+      margin-top:55%;
+      z-index: -100;
+      margin-left: 55%;
   
-  }
-  .square2 {
-    position:absolute;
-    height: 200px;
-    width: 49%;
-    background-color: rgba(172, 172, 172, 0.308);
-    margin-top:55%;
-    z-index: -100;
+      text-align: right;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 30px;
+      color: #569683;
+      shape-margin: 10px;
+      padding: 60px 40px 40px 40px;
+    }
+    .square4 {
+      position:absolute;
+      height: 100px;
+      width: 40%;
+      background-color: rgba(172, 172, 172, 0.308);
+      margin-top:75%;
+      z-index: -100;
+      
+      text-align: justify;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 30px;
+      color: #569683;
+      shape-margin: 10px;
+      padding: 60px 40px 40px 40px;
+    
+    }
+    .square5 {
+      position:absolute;
+      height: 100px;
+      width: 40%;
+      background-color: rgba(172, 172, 172, 0.308);
+      margin-top:75%;
+      z-index: -100;
+      margin-left: 55%;
   
-  }
-  .square3 {
-    position:absolute;
-    height: 200px;
-    width: 49%;
-    background-color: rgba(172, 172, 172, 0.308);
-    margin-top:55%;
-    z-index: -100;
-    margin-left: 54%;
-  }
-
+      text-align: right;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 30px;
+      color: #569683;
+      shape-margin: 10px;
+      padding: 60px 40px 40px 40px;
+    }
+  

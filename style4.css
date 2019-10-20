@@ -84,31 +84,87 @@ nav p{
 }
 
 .square {
-    position:absolute;
-    height: 500px;
-    width: 100%;
-    background-color: rgba(172, 172, 172, 0.308);
-    margin-top:15%;
-    z-index: -100;
+  position:absolute;
+  height: 400px;
+  width: screen;
+  background-color: rgba(172, 172, 172, 0.308);
+  margin-top:15%;
+  z-index: -100;
+ 
+  
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #569683;
+    shape-margin: 10px;
+    padding: 60px 40px 40px 40px;
   
   }
   .square2 {
     position:absolute;
-    height: 200px;
-    width: 49%;
+    height: 100px;
+    width: 40%;
     background-color: rgba(172, 172, 172, 0.308);
     margin-top:55%;
     z-index: -100;
+    
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #569683;
+    shape-margin: 10px;
+    padding: 60px 40px 40px 40px;
   
   }
   .square3 {
     position:absolute;
-    height: 200px;
-    width: 49%;
+    height: 100px;
+    width: 40%;
     background-color: rgba(172, 172, 172, 0.308);
     margin-top:55%;
     z-index: -100;
-    margin-left: 54%;
+    margin-left: 55%;
+
+
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #569683;
+    shape-margin: 10px;
+    padding: 60px 40px 40px 40px;
+  }
+  .square4 {
+    position:absolute;
+    height: 100px;
+    width: 40%;
+    background-color: rgba(172, 172, 172, 0.308);
+    margin-top:75%;
+    z-index: -100;
+    
+
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #569683;
+    shape-margin: 10px;
+    padding: 60px 40px 40px 40px;
+  
+  }
+  .square5 {
+    position:absolute;
+    height: 100px;
+    width: 40%;
+    background-color: rgba(172, 172, 172, 0.308);
+    margin-top:75%;
+    z-index: -100;
+    margin-left: 55%;
+
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #569683;
+    shape-margin: 10px;
+    padding: 60px 40px 40px 40px;
   }
 
   .p{
@@ -145,5 +201,23 @@ nav p{
     margin-top:-170px;
     margin-left: 10%;
     color:#D98B4C;
+    z-index: 100;
+  }
+  .footer{
+    width: 100%;
+    height: 10%;
+    margin-top: 140%;
+    position: absolute;
+    background-color: #D98B4C;
+    top:129px;
+    z-index: -1;
+    margin-bottom: 0%;
+  }
+  .termoi{
+    width:50px;
+    height: 100px;
+    position:absolute;
+    margin-top:15%;
+    margin-left:20%;
     z-index: 100;
   }
