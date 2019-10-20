@@ -64,6 +64,7 @@ body{
   background-color: #D98B4C;
   top:129px;
   z-index: -1;
+  margin-bottom: 0%;
 }
 
 
@@ -71,7 +72,7 @@ body{
   width: 100%;
   height: 90%;
   overflow: hidden;
-  margin-top: 8%;
+  margin-top: 8.5%;
 }
 
 .middle{

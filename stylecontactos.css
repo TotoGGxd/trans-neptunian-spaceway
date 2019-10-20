@@ -2,14 +2,15 @@
     position: absolute;
     height: 50px;
     width: 50px;
-    bottom: -1442px;
+    /*bottom: -1442px;*/
     right: 103px;
+    margin-top: 135%;
 }
 .instalogo{
     position: absolute;
     height: 48px;
     width: 50px;
-    bottom: -1441px;
+    margin-top: 135%;
     float: left;
     right: 50px;
 
@@ -18,7 +19,7 @@
     position: absolute;
     height: 57px;
     width: 60px;
-    bottom: -1452px;
+    margin-top: 135%;
     float: left;
     right: 150px;
 }
