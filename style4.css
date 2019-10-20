@@ -1,0 +1,123 @@
+body{
+   
+    margin: 0%;
+    /*background-color: rgb(1, 0, 12);*/
+    background-image: url('images/fondo.jpg');
+    background-attachment:fixed;
+    background-size: 100%;
+    position:absolute;
+	height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    
+    background-color: black;
+}
+
+.home-menu{
+    font-size: 72px;
+    width: 100%;
+    height: 60px;
+    background-color: #569683; 
+    float: left;
+  }
+  
+  .img-home{
+    height: 70px;
+    padding: 0px 0px 0px 0px;
+  }
+
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+  }
+  nav ul li{
+    text-align: right;
+    float: right;
+    list-style-type: none;
+    position: relative;
+  }
+  
+  nav ul li a{
+    text-align: right;
+    font-size: 24px;
+    padding: 10px 14px;
+    display: block;
+    color: 	#ffffff;
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+    
+  }
+
+nav p{
+  text-align: right;
+  float: left;
+  font-size: 22px;
+  line-height: 45px;
+  margin: 0px;
+
+}
+
+.eris{
+    position: relative;
+    margin: 0;
+    height:760px;
+    width:100%;
+   
+    
+}
+.makemake{
+    position: absolute;
+    z-index: 100;
+    margin-top: 10%;
+}
+.pluto{
+    position: absolute;
+    z-index: 100;
+    margin-top: 22%;
+}
+.haumea{
+    position: absolute;
+    z-index: 100;
+    margin-top: 34%;
+}
+
+.square {
+    position:absolute;
+    height: 500px;
+    width: 100%;
+    background-color: rgba(172, 172, 172, 0.308);
+    margin-top:15%;
+    z-index: -100;
+  
+  }
+  .square2 {
+    position:absolute;
+    height: 200px;
+    width: 49%;
+    background-color: rgba(172, 172, 172, 0.308);
+    margin-top:55%;
+    z-index: -100;
+  
+  }
+  .square3 {
+    position:absolute;
+    height: 200px;
+    width: 49%;
+    background-color: rgba(172, 172, 172, 0.308);
+    margin-top:55%;
+    z-index: -100;
+    margin-left: 54%;
+  }
+
+  .p{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    margin-top:-200px;
+    margin-left: 70%;
+    color:#569683;
+    z-index: 100;
+    
+  }
