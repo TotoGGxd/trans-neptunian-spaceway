@@ -34,3 +34,23 @@ document.addEventListener("click", (evt) => {
 
     document.getElementById("myUL").style.display = "none";
 });
+
+// API
+
+const planetDescription = document.getElementById('description');
+const planetName = document.getElementById('name');
+const square1 = document.getElementById('info');
+const square2 = document.getElementById('info2');
+const url = 'https://localhost:5001/api/planetas';
+
+let getInfoPlanet = async () =>{
+  const response = await fetch(url)
+  const data = await response.json();
+  planetName.innerText = data[0].nombre;
+  planetDescription.innerText = data[0].description;
+  planetDescription.innerHTML += `<br>El tamaño del planeta es de ${data[0].tamaño} con una temperatura de ${data[0].temperatura}`;
+  square1.innerHTML = `El tiempo en el que se desplaza es de ${data[0].tiempo}`;
+  square2.innerHTML = `La distancia que hay entre el sol y ${data[0].nombre} es de ${data[0].distancia}`;
+  console.log(data);
+}
+getInfoPlanet();
