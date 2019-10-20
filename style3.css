@@ -83,31 +83,53 @@ nav p{
 }
 
 .square {
-    position:absolute;
-    height: 500px;
-    width: 100%;
-    background-color: rgba(172, 172, 172, 0.308);
-    margin-top:15%;
-    z-index: -100;
+  position:absolute;
+  height: 400px;
+  width: screen;
+  background-color: rgba(172, 172, 172, 0.308);
+  margin-top:15%;
+  z-index: -100;
+ 
+  
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #569683;
+    shape-margin: 10px;
+    padding: 60px 40px 40px 40px;
   
   }
   .square2 {
     position:absolute;
-    height: 200px;
-    width: 49%;
+    height: 100px;
+    width: 40%;
     background-color: rgba(172, 172, 172, 0.308);
     margin-top:55%;
     z-index: -100;
+    
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #569683;
+    shape-margin: 10px;
+    padding: 60px 40px 40px 40px;
   
   }
   .square3 {
     position:absolute;
-    height: 200px;
-    width: 49%;
+    height: 100px;
+    width: 40%;
     background-color: rgba(172, 172, 172, 0.308);
     margin-top:55%;
     z-index: -100;
     margin-left: 54%;
+
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #569683;
+    shape-margin: 10px;
+    padding: 60px 40px 40px 40px;
   }
 
   .p{
@@ -116,7 +138,7 @@ nav p{
     font-size: 70px;
     margin-top:-200px;
     margin-left: 70%;
-    color:#569683;
+    color:#D98B4C;
     z-index: 100;
   }
   .p1{
@@ -125,7 +147,7 @@ nav p{
     font-size: 42px;
     margin-top:-550px;
     margin-left: 14.5%;
-    color:#569683;
+    color:#D98B4C;
     z-index: 100;
   }
   .p2{
@@ -134,7 +156,7 @@ nav p{
     font-size: 42px;
     margin-top:-350px;
     margin-left: 6%;
-    color:#569683;
+    color:#D98B4C;
     z-index: 100;
   }
   .p3{
@@ -143,6 +165,6 @@ nav p{
     font-size: 42px;
     margin-top:-165px;
     margin-left: 12%;
-    color:#569683;
+    color:#D98B4C;
     z-index: 100;
   }

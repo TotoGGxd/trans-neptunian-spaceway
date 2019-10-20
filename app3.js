@@ -49,8 +49,8 @@ let getInfoPlanet = async () =>{
   planetName.innerText = data[2].nombre;
   planetDescription.innerText = data[2].description;
   square1.innerHTML = `${data[2].tiempo}`;
-  square1.innerHTML += `${data[2].tamaño} ${data[2].temperatura}`;
-  square2.innerHTML = `${data[2].distancia}`;
+  square1.innerHTML += `${data[2].tamaño}<br> ${data[2].temperatura}`;
+  square2.innerHTML = `${data[2].distancia}<br>`;
   console.log(data);
 }
 getInfoPlanet();
