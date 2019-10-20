@@ -4,6 +4,7 @@
     width: 50px;
     bottom: -1442px;
     right: 103px;
+   
 }
 .instalogo{
     position: absolute;
@@ -12,6 +13,7 @@
     bottom: -1441px;
     float: left;
     right: 50px;
+    
 
 }
 .githublogo{
@@ -21,16 +23,21 @@
     bottom: -1452px;
     float: left;
     right: 150px;
+   
+
 }
 
 .logofin{
-    position: absolute;
+    position: relative;
     height: 80px;
     width: 170px;
     bottom: -1396px;
     float: left;
     right: 1300px;
     padding: 0px 0px 0px 0px;
+  
     
 }
 
+
+  
